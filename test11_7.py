@@ -1,3 +1,13 @@
+"""
+QUESTÃO 7:
+Faça um programa que leia uma data de nascimento no formato
+dd/mm/aaaa e imprima a data com o mês escrito por extenso. Exemplo:
+Data = 20/02/1995
+Resultado gerado pelo programa:
+Você nasceu em 20 de fevereiro de 1995
+"""
+
+
 birth = input('Digite aqui a sua data de nascimento(no formato dd/mm/aaaa): ') .split('/')
 
 if len(birth[0]) != 2: 
